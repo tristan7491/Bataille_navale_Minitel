@@ -1,13 +1,13 @@
-Bataille Navale
+## Bataille Navale
 ============
-##Build
+#### Build
 
 `make BOARD=idosens_base MINITEL=1` permet de build le code pour le joueur 1 et  
 `make BOARD=idosens_base MINITEL=2` permet de build le code pour le joueur 2
 
 Il est possible de rajouter `-j 16` à la fin de la commande pour utiliser plus de ressource de votre pc et accélérer le build
 
-##Guide de jeu
+#### Guide de jeu
 
 ➢ Les touches utilisables au clavier du minitel sont les suivantes: 
 
