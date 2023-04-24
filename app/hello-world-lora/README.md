@@ -12,4 +12,4 @@ Sends "Hello World"" every ten seconds via lora using the sx1276 driver
 
 Green LED is on while sending data.
 
-Red LED toggles each time a meesage is sent.
+Red LED is on while receiving data.
