@@ -7,7 +7,7 @@
  github  
 &emsp;|  
 &emsp;|--RIOT-OS  
-&emsp;|&emsp;|--RIOT  
+&emsp;|&emsp;&emsp;|--RIOT  
 &emsp;|  
 &emsp;|--username  
-&emsp;|&emsp;|--Bataille_navale_Minitel  
+&emsp;|&emsp;&emsp;|--Bataille_navale_Minitel  
