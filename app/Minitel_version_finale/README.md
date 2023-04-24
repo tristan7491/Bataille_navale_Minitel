@@ -1,21 +1,26 @@
-Hello World!
+Bataille Navale
 ============
+##Build
 
-This is a basic example how to use RIOT in your embedded application.
-It prints out the famous text `Hello World!`.
+`make BOARD=idosens_base MINITEL=1` permet de build le code pour le joueur 1 et  
+`make BOARD=idosens_base MINITEL=2` permet de build le code pour le joueur 2
 
-This example should foremost give you an overview how to use the Makefile system:
+Il est possible de rajouter `-j 16` à la fin de la commande pour utiliser plus de ressource de votre pc et accélérer le build
 
-* First you must give your application a name, which is commonly the same as the name of the directory it resides in.
-  Then you can define a default BOARD for which the application was written.
-  By using e.g. `make BOARD=msba2` you can override the default board.
-  With `make buildtest` the application gets compiled for all supported boards.
+##Guide de jeu
 
-* The variable `RIOTBASE` contains an absolute or relative path to the directory where you have checked out RIOT.
-  If your code resides in a subdirectory of RIOT, then you can use `$(CURDIR)` as it's done in here.
+➢ Les touches utilisables au clavier du minitel sont les suivantes: 
 
-* The variable `QUIET`, which is either `1` or `0`, defines whether to print verbose compile information, or hide them, respectively.
+&esmp;Z, Q, S, D : déplacement du curseur (position actuelle marquée par le symbole ‘#’)  
+&esmp;H, V : indiquer lors du placement si ce dernier est vertical (V) ou horizontal (H). Le placement se fait toujours vers le bas et vers la droite respectivement.  
+&esmp;ENTRER : valider le placement / tir  
+&esmp;* : Changer la grille affichée (ne fonctionne que lorsque c’est notre tour de jouer)
 
-* The last line of your Makefile must be `include $(RIOTBASE)/Makefile.include`.
+Ces touches sont facilement modifiables dans le code dans le cas où l’on utiliserait un minitel pour lequel ces touches ne sont plus fonctionnelles.
 
-The code itself may look like your usual *C* beginners hello-world example.
+➢ Les tours de jeu et les conditions de victoires sont définis comme suit:
+
+J1 commence le placement de bateaux, et effectue le premier tir lorsque J2 a effectué ses placements.
+
+La partie est terminée lorsque l’un des joueurs a perdu l’ensemble de ses vies (chaque joueur en possède 17 initialement).
+
