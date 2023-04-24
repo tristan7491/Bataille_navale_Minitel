@@ -3,10 +3,12 @@
 ## Build
 
 ```
-make BOARD=idosens_base DRIVER=sx1276 -j 16
+make BOARD=idosens_base DRIVER=sx1276 JOUEUR=1 -j 16
 ```
 
 ## Fonctionnality
+
+Prints the value of "JOUEUR" you chose during build
 
 Sends "Hello World"" every ten seconds via lora using the sx1276 driver
 
