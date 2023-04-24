@@ -1,0 +1,18 @@
+/**
+ * @defgroup    boards_idosens_sensor Idosens Sensor
+ * @ingroup     boards
+ * @brief       Support for the Idosens Base board.
+ *
+ * ### General information
+ *
+ * Some general information about the board
+ *
+ * ### Pinout
+ *
+ * A detailed description of the board pinout (if available)
+ *
+ * ### Flash the board
+ *
+ * Some notes about how to flash the board
+ *
+ */
