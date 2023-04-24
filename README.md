@@ -4,10 +4,10 @@
 # Usage
  Placer ce repo comme suit dans votre arbre de fichiers :
  
- github
-  |
-  |--RIOT-OS
-  |   |--RIOT
-  |
-  |--<usurname>
-  |   |--Bataille_navale_Minitel
+ github  
+  |  
+  |--RIOT-OS  
+  |   |--RIOT  
+  |  
+  |--<usurname>  
+  |   |--Bataille_navale_Minitel  
