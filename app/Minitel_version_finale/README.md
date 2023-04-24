@@ -11,10 +11,10 @@ Il est possible de rajouter `-j 16` à la fin de la commande pour utiliser plus 
 
 ➢ Les touches utilisables au clavier du minitel sont les suivantes: 
 
-&esmp;Z, Q, S, D : déplacement du curseur (position actuelle marquée par le symbole ‘#’)  
-&esmp;H, V : indiquer lors du placement si ce dernier est vertical (V) ou horizontal (H). Le placement se fait toujours vers le bas et vers la droite respectivement.  
-&esmp;ENTRER : valider le placement / tir  
-&esmp;* : Changer la grille affichée (ne fonctionne que lorsque c’est notre tour de jouer)
+&emsp;Z, Q, S, D : déplacement du curseur (position actuelle marquée par le symbole ‘#’)  
+&emsp;H, V : indiquer lors du placement si ce dernier est vertical (V) ou horizontal (H). Le placement se fait toujours vers le bas et vers la droite respectivement.  
+&emsp;ENTRER : valider le placement / tir  
+&emsp;* : Changer la grille affichée (ne fonctionne que lorsque c’est notre tour de jouer)
 
 Ces touches sont facilement modifiables dans le code dans le cas où l’on utiliserait un minitel pour lequel ces touches ne sont plus fonctionnelles.
 
