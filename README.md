@@ -5,9 +5,9 @@
  Placer ce repo comme suit dans votre arbre de fichiers :
  
  github  
-&emsp|  
-&emsp|--RIOT-OS  
-&emsp|&emsp|--RIOT  
-&emsp|  
-&emsp|--username  
-&emsp|&emsp|--Bataille_navale_Minitel  
+&emsp;|  
+&emsp;|--RIOT-OS  
+&emsp;|&emsp;|--RIOT  
+&emsp;|  
+&emsp;|--username  
+&emsp;|&emsp;|--Bataille_navale_Minitel  
